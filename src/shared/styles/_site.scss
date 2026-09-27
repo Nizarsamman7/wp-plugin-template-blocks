@@ -1,0 +1,85 @@
+.studio-site {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: var(--studio-paper);
+	color: var(--studio-ink);
+	font-family: var(--studio-sans);
+}
+
+.studio-nav,
+.studio-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem 1.5rem;
+}
+
+.studio-nav {
+	background: var(--studio-ink);
+	color: white;
+}
+
+.studio-nav a,
+.studio-footer a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.studio-nav nav {
+	display: flex;
+	gap: 1rem;
+}
+
+.studio-wordmark {
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+
+.studio-hero,
+.studio-contact {
+	flex: 1;
+	padding: 4rem 1.5rem;
+	max-width: 960px;
+}
+
+.studio-hero h1,
+.studio-contact h1 {
+	font-size: clamp(2.5rem, 6vw, 4.5rem);
+	line-height: 0.95;
+	margin: 0 0 1rem;
+}
+
+.studio-hero p,
+.studio-contact p {
+	max-width: 38rem;
+	font-size: 1.125rem;
+}
+
+.studio-button {
+	display: inline-block;
+	margin-top: 1rem;
+	background: var(--studio-accent);
+	color: white;
+	padding: 0.75rem 1.1rem;
+	border-radius: 999px;
+	text-decoration: none;
+}
+
+.studio-footer {
+	border-top: 1px solid var(--studio-line);
+	background: var(--studio-card);
+}
+
+body.studio-blank-template {
+	margin: 0;
+}
+
+.studio-blank-main,
+.studio-block-wrapper,
+.studio-block-wrapper > div {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}

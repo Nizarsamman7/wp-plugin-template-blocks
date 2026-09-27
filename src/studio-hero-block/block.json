@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "studio-blocks/studio-hero-block",
+  "version": "1.0.0",
+  "title": "Studio Hero",
+  "category": "widgets",
+  "icon": "layout",
+  "description": "Full-page hero with navigation and footer.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "studio-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}
